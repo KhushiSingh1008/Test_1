@@ -6,6 +6,9 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    // Restrict automatic inclusion of all @types packages at the root config.
+    // Keep only Vite client types here (app-level types are in tsconfig.app.json).
+    "types": ["vite/client"],
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,

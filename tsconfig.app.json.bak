@@ -6,11 +6,6 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-  // Limit the automatic inclusion of all @types packages.
-  // Explicitly include the Vite client types to keep DOM/vite helper types available.
-  // (Don't include 'node' here to avoid requiring @types/node in the browser build.)
-  "types": ["vite/client"],
-
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
